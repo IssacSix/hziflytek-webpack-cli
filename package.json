@@ -7,9 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint ./lib --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "iflytek",
+    "webpack-cli"
+  ],
   "author": "xjding2",
   "license": "ISC",
+  "homepage": "https://github.com/IssacSix/hziflytek-webpack-cli",
+  "changelog": "https://github.com/github.com/IssacSix/hziflytek-webpack-cli/blob/master/CHANGELOG.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/IssacSix/hziflytek-webpack-cli.git"
+  },
   "dependencies": {
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
