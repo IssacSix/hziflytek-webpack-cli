@@ -39,10 +39,10 @@ npm install hziflytek-webpack-cli
 
 ## Quick Example
 
-1. 安装 webpack dev-webpack-cli
+1. 安装 webpack webpack-dev-server
 
    ```
-   npm install webpack dev-webpack-cli -S
+   npm install webpack webpack-dev-server -S
    ```
 
 2. package.json 添加脚本命令，如下：
