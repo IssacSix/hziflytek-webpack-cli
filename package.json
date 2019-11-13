@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Errozqgitr: no test specified\" && exit 1",
     "eslint": "eslint ./lib --fix"
   },
   "keywords": [
@@ -29,8 +29,10 @@
     "friendly-errors-webpack-plugin": "^1.7.0",
     "glob": "^7.1.4",
     "html-webpack-plugin": "^3.2.0",
+    "install": "^0.13.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
+    "npm": "^6.11.3",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "px2rem-loader": "^0.1.9",
@@ -38,6 +40,7 @@
     "sass-loader": "^8.0.0",
     "speed-measure-webpack-plugin": "^1.3.1",
     "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.1.0",
     "webpack": "^4.40.2",
     "webpack-bundle-analyzer": "^3.5.1",
     "webpack-cli": "^3.3.9",
