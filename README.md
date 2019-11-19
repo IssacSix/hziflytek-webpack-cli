@@ -70,7 +70,7 @@ npm install hziflytek-webpack-cli -D
 
 3. **package.json 添加脚本命令，如下：**
 
-   ```
+   ```json
    scripts: {
      "dev": "webpack-dev-server --config ./node_modules/hziflytek-webpack-cli/lib/dev.config.js --host x.x.x.x --port 3000",
        "build": "webpack --config ./node_modules/hziflytek-webpack-cli/lib/prod.config.js"，
@@ -84,7 +84,7 @@ npm install hziflytek-webpack-cli -D
 
    3. 方法一：创建.babelrc
 
-      ```
+      ```json
       {
           "presets": [
               "@babel/preset-env",
@@ -98,7 +98,7 @@ npm install hziflytek-webpack-cli -D
 
       方法二：package.json 配置，新增babel 配置项
 
-      ```
+      ```json
       "babel": {
       	"presets": [
       		"@babel/preset-env",
