@@ -19,6 +19,10 @@
     "type": "git",
     "url": "git+https://https://github.com/IssacSix/hziflytek-webpack-cli.git"
   },
+  "browserslist": [
+    "last 2 version",
+    ">1%"
+  ],
   "dependencies": {
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
