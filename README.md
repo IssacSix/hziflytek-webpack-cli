@@ -52,7 +52,15 @@ npm install hziflytek-webpack-cli -D
 
 ## Quick Example
 
-1. **安装 webpack、webpack-dev-server、babel**
+1. **安装 hziflytek-webpack-cli 工具**
+
+   ```
+   npm install hziflytek-webpack-cli D
+   ```
+
+   
+
+2. **安装 webpack、webpack-dev-server、babel**
 
    ```
    npm install webpack webpack-dev-server @babel/core -D
@@ -60,7 +68,7 @@ npm install hziflytek-webpack-cli -D
 
    
 
-2. **package.json 添加脚本命令，如下：**
+3. **package.json 添加脚本命令，如下：**
 
    ```
    scripts: {
